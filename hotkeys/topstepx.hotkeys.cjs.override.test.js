@@ -29,27 +29,30 @@ var hotkeys = [
     // buy quantity 3 at market
     {"keys" : ["alt", "ctrl", "digit3"], "f" : () => buttonClickBuySellMarketQuantity(true, '3')},
     // buy quantity 4 at market
-    {"keys" : ["alt", "ctrl", "digit4"], "f" : () => buttonClickBuySellMarketQuantity(true, '4')},
+    //{"keys" : ["alt", "ctrl", "digit4"], "f" : () => buttonClickBuySellMarketQuantity(true, '4')},
     // buy quantity 5 at market
     {"keys" : ["alt", "ctrl", "digit5"], "f" : () => buttonClickBuySellMarketQuantity(true, '5')},
     // buy quantity 10 at market
-    {"keys" : ["alt", "ctrl", "digit9"], "f" : () => buttonClickBuySellMarketQuantity(true, '10')},
+    //{"keys" : ["alt", "ctrl", "digit9"], "f" : () => buttonClickBuySellMarketQuantity(true, '10')},
     // buy quantity 15 at market
-    {"keys" : ["alt", "ctrl", "digit0"], "f" : () => buttonClickBuySellMarketQuantity(true, '15')},
+    //{"keys" : ["alt", "ctrl", "digit0"], "f" : () => buttonClickBuySellMarketQuantity(true, '15')},
+
+
+    
     // sell quantity 1 at market
-    {"keys" : ["alt", "ctrl", "f1"], "f" : () => buttonClickBuySellMarketQuantity(false, '1')},
+    {"keys" : ["alt", "ctrl", "digit9"], "f" : () => buttonClickBuySellMarketQuantity(false, '1')},
     // sell quantity 2 at market
-    {"keys" : ["alt", "ctrl", "f2"], "f" : () => buttonClickBuySellMarketQuantity(false, '2')},
+    {"keys" : ["alt", "ctrl", "digit8"], "f" : () => buttonClickBuySellMarketQuantity(false, '2')},
     // sell quantity 3 at market
-    {"keys" : ["alt", "ctrl", "f3"], "f" : () => buttonClickBuySellMarketQuantity(false, '3')},
+    {"keys" : ["alt", "ctrl", "digit7"], "f" : () => buttonClickBuySellMarketQuantity(false, '3')},
     // sell quantity 4 at market
-    {"keys" : ["alt", "ctrl", "f4"], "f" : () => buttonClickBuySellMarketQuantity(false, '4')},
+    //{"keys" : ["alt", "ctrl", "f4"], "f" : () => buttonClickBuySellMarketQuantity(false, '4')},
     // sell quantity 5 at market
-    {"keys" : ["alt", "ctrl", "f5"], "f" : () => buttonClickBuySellMarketQuantity(false, '5')},
+    {"keys" : ["alt", "ctrl", "digit6"], "f" : () => buttonClickBuySellMarketQuantity(false, '5')},
     // sell quantity 10 at market
-    {"keys" : ["alt", "ctrl", "f9"], "f" : () => buttonClickBuySellMarketQuantity(false, '10')},
+    //{"keys" : ["alt", "ctrl", "f9"], "f" : () => buttonClickBuySellMarketQuantity(false, '10')},
     // sell quantity 15 at market
-    {"keys" : ["alt", "ctrl", "f10"], "f" : () => buttonClickBuySellMarketQuantity(false, '15')},
+    //{"keys" : ["alt", "ctrl", "f10"], "f" : () => buttonClickBuySellMarketQuantity(false, '15')},
 
     // join bid with quantity 1
     {"keys" : ["alt", "digit1"], "f" : () => buttonClickBuySellJoinQuantity(true, '1')},
