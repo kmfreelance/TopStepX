@@ -8,7 +8,7 @@ var hotkeys = [
     // market sell
     {"keys" : ["alt", "ctrl", "keys"], "f" : () => buttonClickBuySellMarket(false)},
     // join bid
-    {"keys" : ["shift", "alt", "ctrl", "keyb"], "f" : () => buttonClickBuySellJoin(true)},
+    {"keys" : ["ShiftLeft", "alt", "ctrl", "keyb"], "f" : () => buttonClickBuySellJoin(true)},
     // join ask
     {"keys" : ["shift", "alt", "ctrl", "keys"], "f" : () => buttonClickBuySellJoin(false)},
     // close position
