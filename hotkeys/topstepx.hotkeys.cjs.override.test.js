@@ -10,7 +10,9 @@ var hotkeys = [
     // join bid
     {"keys" : ["ShiftLeft", "alt", "ctrl", "keyb"], "f" : () => buttonClickBuySellJoin(true)},
     // join ask
-    {"keys" : ["shift", "alt", "ctrl", "keys"], "f" : () => buttonClickBuySellJoin(false)},
+    //{"keys" : ["shift", "alt", "ctrl", "keys"], "f" : () => buttonClickBuySellJoin(false)},
+    {"keys" : ["ShiftLeft", "AltLeft", "ControlLeft", "Numpad1"], "f" : () => buttonClickBuySellJoin(false)},
+    
     // close position
     {"keys" : ["alt", "ctrl", "keyc"], "f" : () => buttonClickClosePosition()},
     // reverse position
