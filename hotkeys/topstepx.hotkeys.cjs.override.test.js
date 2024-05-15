@@ -13,7 +13,7 @@ var hotkeys = [
     {"keys" : ["shift", "alt", "ctrl", "numpad1"], "f" : () => buttonClickBuySellJoin(false)},
 
     // close position
-    {"keys" : ["alt", "ctrl", "keyc"], "f" : () => buttonClickClosePosition()},
+    {"keys" : ["alt", "ctrl", "*"], "f" : () => buttonClickClosePosition()},
     // reverse position
     {"keys" : ["alt", "ctrl", "keyr"], "f" : () => buttonClickReversePosition()},
     // cancel orders
